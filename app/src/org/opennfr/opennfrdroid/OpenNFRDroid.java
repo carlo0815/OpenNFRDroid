@@ -265,7 +265,7 @@ public class OpenNFRDroid extends MatomoApplication {
 			boolean login = sp.getBoolean("login", false);
 			boolean ssl = sp.getBoolean("ssl", false);
 
-			Profile p = new Profile(-1, "Open Vision", host, streamHost, port, 8001, 80, login, user, pass, ssl, false, false,
+			Profile p = new Profile(-1, "Open Nachfalke", host, streamHost, port, 8001, 80, login, user, pass, ssl, false, false,
 					false, false, "", "", "", "");
 			dbh.addProfile(p);
 			profileId = p.getId();
@@ -277,7 +277,7 @@ public class OpenNFRDroid extends MatomoApplication {
 		if (!setCurrentProfile(context, profileId)) {
 			// However we got here... we're creating an
 			// "do-not-crash-default-profile now
-			sProfile = new Profile(-1, "Open Vision", "192.168.1.2", "", 80, 8001, 80, false, "", "", false, false, false, false,
+			sProfile = new Profile(-1, "Open Nachfalke", "192.168.1.2", "", 80, 8001, 80, false, "", "", false, false, false, false,
 					false, "", "", "", "");
 		}
 	}

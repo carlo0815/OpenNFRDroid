@@ -58,7 +58,7 @@ public class MovieDetailDialog extends AbstractDialog {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setStyle(STYLE_NO_FRAME, R.style.Theme_Visiondroid_FullscreenDialog);
+        setStyle(STYLE_NO_FRAME, R.style.Theme_Opennfrdroid_FullscreenDialog);
     }
 
     @Override

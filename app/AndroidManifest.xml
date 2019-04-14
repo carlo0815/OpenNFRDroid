@@ -84,7 +84,7 @@
             android:theme="@style/Theme.Leanback" />
         <activity
             android:name=".tv.activities.PreferenceActivity"
-            android:theme="@style/Theme.Visiondroid.LeanbackPreferences">
+            android:theme="@style/Theme.Opennfrdroid.LeanbackPreferences">
         </activity>
 
         <activity

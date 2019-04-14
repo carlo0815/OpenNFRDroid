@@ -1,5 +1,5 @@
 ## 7.0.r8
-* First compatible release for Open Vision
+* First compatible release for Open Nachfalke
 
 ## 1.4.433
 * FIX: Virtual remote widget

@@ -3,7 +3,7 @@
 
 <string name="description">Kirjeldus</string>
 <string name="title">Pealkiri</string>
-<string name="app_name">Visiondroid</string>
+<string name="app_name">Opennfrdroid</string>
 <string name="app_name_tv">opennfrDroidTV</string>
 
 <string-array name="servicelist">

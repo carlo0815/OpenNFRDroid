@@ -2,13 +2,13 @@
 <resources>
 
     <style name="Theme.OpenNFRDroid" parent="Theme.Leanback" />
-    <style name="Theme.OpenNFRDroid.Dialog" parent="Theme.Visiondroid.FullscreenDialog" />
-    <style name="Theme.OpenNFRDroid.Dialog.Alert" parent="Theme.Visiondroid.FullscreenDialog" />
+    <style name="Theme.OpenNFRDroid.Dialog" parent="Theme.Opennfrdroid.FullscreenDialog" />
+    <style name="Theme.OpenNFRDroid.Dialog.Alert" parent="Theme.Opennfrdroid.FullscreenDialog" />
     <style name="VideoPlayerButton" parent="Widget.Leanback.DetailsActionButtonStyle">
         <item name="android:textAlignment">center</item>
     </style>
 
-    <style name="Theme.Visiondroid.FullscreenDialog" parent="Theme.OpenNFRDroid.Dialog.Night">
+    <style name="Theme.Opennfrdroid.FullscreenDialog" parent="Theme.OpenNFRDroid.Dialog.Night">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowIsFloating">false</item>

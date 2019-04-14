@@ -51,7 +51,7 @@ public class EpgDetailDialog extends AbstractDialog {
     }
 
     public EpgDetailDialog() {
-        setStyle(STYLE_NO_FRAME, R.style.Theme_Visiondroid_FullscreenDialog);
+        setStyle(STYLE_NO_FRAME, R.style.Theme_Opennfrdroid_FullscreenDialog);
     }
 
     @Override
