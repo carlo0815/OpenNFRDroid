@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:opennfrDroid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/share"
+        opennfrDroid:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        opennfrDroid:showAsAction="always|withText"/>
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="." destdir="C:\Users\sre\Desktop\opennfrDroid_doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="org.opennfr.opennfrdroid.helpers,org.opennfr.opennfrdroid.parsers.enigma2.saxhandler,org.opennfr.opennfrdroid.helpers.enigma2,org.opennfr.opennfrdroid.dataProviders.interfaces,org.opennfr.opennfrdroid.activities,org.opennfr.opennfrdroid.dataProviders,com.commonsware.cwac.merge,org.opennfr.opennfrdroid.abstivities,com.commonsware.cwac.sacklist,org.opennfr.opennfrdroid.parsers" source="1.7" sourcefiles="src/org.opennfr.opennfrdroid/OpenNFRDroidTest.java,src/org.opennfr.opennfrdroid/OpenNFRDroid.java,src/org.opennfr.opennfrdroid/CustomExceptionHandler.java,src/org.opennfr.opennfrdroid/Profile.java" sourcepath="gen;src" splitindex="true" use="true" version="true">
+            <link href="file:/D:/android-sdk-windows/docs/reference"/>
+        </javadoc>
+    </target>
+</project>

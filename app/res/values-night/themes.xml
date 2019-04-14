@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.OpenNFRDroid" parent="Theme.OpenNFRDroid.Night" />
+    <style name="Theme.OpenNFRDroid.Dialog" parent="Theme.OpenNFRDroid.Dialog.Night" />
+    <style name="Theme.OpenNFRDroid.BottomSheetDialog" parent="Theme.OpenNFRDroid.BottomSheetDialog.Night" />
+    <style name="Theme.OpenNFRDroid.Dialog.Alert" parent="Theme.OpenNFRDroid.Dialog.Alert.Night" />
+
+</resources>

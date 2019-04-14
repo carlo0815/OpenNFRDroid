@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:opennfrDroid="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_info"
+        opennfrDroid:showAsAction="never"
+        android:title="@string/epg"/>
+    <item
+        android:id="@+id/menu_zap"
+        opennfrDroid:showAsAction="never"
+        android:title="@string/zap"/>
+    <item
+        android:id="@+id/menu_delete"
+        opennfrDroid:showAsAction="never"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/menu_download"
+        opennfrDroid:showAsAction="never"
+        android:title="@string/download"/>
+    <item
+        android:id="@+id/menu_stream"
+        opennfrDroid:showAsAction="never"
+        android:title="@string/stream"/>
+</menu>

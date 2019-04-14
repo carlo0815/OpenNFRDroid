@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:opennfrDroid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_overview"
+        android:icon="@drawable/ic_action_list"
+        android:title="@string/bouquet_overview"
+        opennfrDroid:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/menu_default"
+        android:icon="@drawable/ic_action_nofav"
+        android:title="@string/set_default"
+        opennfrDroid:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/menu_sync_epg"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/epg_sync"
+        android:visible="false"
+        opennfrDroid:showAsAction="ifRoom|withText"/>
+
+</menu>
