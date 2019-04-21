@@ -220,7 +220,7 @@
         </RelativeLayout>
 
     </RelativeLayout>
-    <org.opennfr.opennfrdroid.widget.AutofitRecyclerView
+    <org.opennfr.nfrdroid.widget.AutofitRecyclerView
         android:id="@+id/servicelist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

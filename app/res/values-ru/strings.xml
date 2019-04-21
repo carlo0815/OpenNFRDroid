@@ -4,7 +4,7 @@
     <string name="description">Описание</string>
     <string name="title">Заголовок</string>
     <string name="mo">Mo</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Фавориты (TV)</item>
@@ -166,7 +166,7 @@
     <string name="about">О...</string>
 <string name="license">Лицензия:
 \nnLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">исходный код доступен на: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">исходный код доступен на: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Активный профиль</string>
     <string name="connection_state">Состояние соединения</string>
     <string name="not_available">Недоступно</string>
@@ -211,7 +211,7 @@
     <string name="profiles">Профили</string>
     <string name="enable_instant_zap">Быстрый переход</string>
     <string name="enable_instant_zap_long">Быстрый переход при коротком нажатии</string>
-    <string name="wrong_activity">Неверное действие! Пересоздайте ярлыки для opennfrDroid!</string>
+    <string name="wrong_activity">Неверное действие! Пересоздайте ярлыки для visionDroid!</string>
     <string name="simple_remote">Упрощенная раскладка кнопок</string>
     <string name="screenshot_saved">Скриншот сохранен в  \'%s\'</string>
     <string name="imdb">IMDb</string>

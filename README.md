@@ -1,4 +1,4 @@
-OpenNFRDroid [![Build Status](https://travis-ci.org/Carlo0815/OpenNFRDroid.svg?branch=master)](https://travis-ci.org/Carlo0815/OpenNFRDroid)
+VisionDroid [![Build Status](https://travis-ci.org/OpenVisionE2/VisionDroid.svg?branch=master)](https://travis-ci.org/OpenVisionE2/VisionDroid)
 ==========
 
 Remotely control your enigma2 based STB with any Android Device!
@@ -7,7 +7,7 @@ Remotely control your enigma2 based STB with any Android Device!
 
 # Clone Git
 Only clone this repo with shallow clone otherwise it takes much time to complete:
-* git clone --depth 1 https://github.com/Carlo0815/OpenNFRDroid.git
+* git clone --depth 1 https://github.com/OpenVisionE2/VisionDroid.git
 
 # Changelog
 * [English](app/res/raw/changelog.md)
@@ -15,14 +15,14 @@ Only clone this repo with shallow clone otherwise it takes much time to complete
 # Functionality
 Remotely control your enigma2 based STB with any Android Device (running android >= 4.1)!
 
-OpenNFRDroid has a fragment-based layout which is optimized for all common device sizes.
+VisionDroid has a fragment-based layout which is optimized for all common device sizes.
 
 # Target Platforms
-OpenNFRDroid is built for use with all enigma2 STBs and the included WebInterface.
+VisionDroid is built for use with all enigma2 STBs and the included WebInterface.
 
 # Requirements
 * The STBs should be running a WebInterface with Version 1.6.8 or later.
-* OpenNFRDroid requires at least Android 4.1
+* VisionDroid requires at least Android 4.1
 
-# Developing / building OpenNFRDroid with AndroidStudio
-Simply import OpenNFRDroid as gradle project and you should be fine.
+# Developing / building VisionDroid with AndroidStudio
+Simply import VisionDroid as gradle project and you should be fine.

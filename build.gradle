@@ -1,5 +1,6 @@
-task wrapper(type: Wrapper) {
-	gradleVersion = '2.14.1'
+wrapper {
+    gradleVersion = '2.14.1'
+    distributionUrl = distributionUrl.replace("bin", "all")
 }
 
 buildscript {
@@ -8,6 +9,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.android.tools.build:gradle:3.4.0'
     }
 }
+

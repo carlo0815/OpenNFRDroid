@@ -4,7 +4,7 @@
     <string name="description">Description</string>
     <string name="title">Titre</string>
     <string name="mo">Mega</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Bouquets (TV)</item>
@@ -181,7 +181,7 @@
     <string name="about">A propos</string>
 <string name="license">LICENSE:
 \nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Code source disponible: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Code source disponible: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Profil actif</string>
     <string name="connection">Connexion</string>
     <string name="connection_state">Etat de connexion</string>
@@ -228,7 +228,7 @@
     <string name="profiles_long">Configurer les profils de connexion</string>
     <string name="enable_instant_zap">Zap maintenant</string>
     <string name="enable_instant_zap_long">Zapper instantanément quand appuis court sur service</string>
-    <string name="wrong_activity">Mauvaise activité lancée! Recrée tous les raccourcis que vous avez créer pour la opennfrDroid</string>
+    <string name="wrong_activity">Mauvaise activité lancée! Recrée tous les raccourcis que vous avez créer pour la visionDroid</string>
     <string name="simple_remote">Affichage télécomande simple</string>
     <string name="screenshot_saved">Capture d\'écran sauvé sous \'%s\'</string>
     <string name="imdb">IMDb</string>

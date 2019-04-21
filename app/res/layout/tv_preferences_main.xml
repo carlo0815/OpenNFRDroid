@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
 
         <fragment
-            android:name="org.opennfr.opennfrdroid.tv.fragment.SettingsFragment"
+            android:name="org.opennfr.nfrdroid.tv.fragment.SettingsFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

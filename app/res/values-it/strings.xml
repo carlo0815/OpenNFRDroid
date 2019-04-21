@@ -4,7 +4,7 @@
     <string name="description">Descrizione</string>
     <string name="title">Titolo</string>
     <string name="mo">Lun</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Pacchetti (TV)</item>
@@ -182,7 +182,7 @@
     <string name="changelog">Note modifiche</string>
 <string name="license">LICENZA:
 \nLicenziato sotto i termini della Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Codice sorgente disponibile in: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Codice sorgente disponibile in: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Profilo</string>
     <string name="connection">Connessione</string>
     <string name="connection_state">Stato</string>
@@ -229,7 +229,7 @@
     <string name="profiles_long">Configura profili connessione</string>
     <string name="enable_instant_zap">Sintonia veloce</string>
     <string name="enable_instant_zap_long">Breve tocco su un canale per la sintonia veloce</string>
-    <string name="wrong_activity">Errore attività! Ricrea i collegamenti precedenti per opennfrDroid!</string>
+    <string name="wrong_activity">Errore attività! Ricrea i collegamenti precedenti per visionDroid!</string>
     <string name="simple_remote">Formato telecomando semplice</string>
     <string name="screenshot_saved">Schermata salvata in \'%s\'</string>
     <string name="imdb">IMDb</string>
@@ -251,10 +251,10 @@
     <string name="use_light_theme_long">Usa un tema leggero invece del tema oscuro predefinito</string>
     <string name="use_light_theme">Usa un tema leggero</string>
     <string name="leave_confirm">Uscire?</string>
-    <string name="leave_confirm_long">Vuoi veramente uscire da opennfrDroid?</string>
+    <string name="leave_confirm_long">Vuoi veramente uscire da visionDroid?</string>
     <string name="sent_as">Inviato a %s</string>
     <string name="watch_on_stb">Guarda su STB</string>
-    <string name="sent_from_opennfrdroid">Inviato da opennfrDroid su %s</string>
+    <string name="sent_from_visiondroid">Inviato da visionDroid su %s</string>
     <string name="no_profile_available">Nessun profilo di connessione trovato! Configura almeno un profilo per usare l\'applicazione principale!</string>
     <string name="confirm_app_close">Chiedi conferma prima di uscire</string>
     <string name="confirm_app_close_long">Chiedi conferma prima di chiudere l\'applicazione premendo &quot;back&quot;</string>
@@ -265,9 +265,9 @@
     <string name="usability">Usabilità</string>
     <string name="use_picons">Usa Picons</string>
 <string name="use_picons_long">Abilita l\'uso di Picons in certe aree.
-\nRichiede i picons in /{SchedaSD}/opennfrDroid/picons</string>
+\nRichiede i picons in /{SchedaSD}/visionDroid/picons</string>
     <string name="sync_picons">Sincronizza Picons</string>
-    <string name="sync_picons_long">Sincronizza Picons in /{SchedaSD}/opennfrDroid/picons usando il profilo di connessione attualmente configurato</string>
+    <string name="sync_picons_long">Sincronizza Picons in /{SchedaSD}/visionDroid/picons usando il profilo di connessione attualmente configurato</string>
     <string name="sync_picons_path">Picons - percorso remoto</string>
     <string name="sync_picons_path_long">Percorso dove si trovano i Picons nel STB</string>
     <string name="connecting">Connessione</string>
@@ -302,7 +302,7 @@
     <string name="donation_error">La tua donazione è fallita! Siamo spiacenti! (%s)</string>
     <string name="share">Condividi</string>
     <string name="restart">Riavviare?</string>
-    <string name="theme_change_restart">E\' necessario un riavvio per applicare il cambio tema. Riavviare opennfrDroid adesso?</string>
+    <string name="theme_change_restart">E\' necessario un riavvio per applicare il cambio tema. Riavviare visionDroid adesso?</string>
     <string name="more">Altro</string>
     <string name="host_not_found">Nome sistema non trovato</string>
     <string name="auth_error">Autorizzazione fallita (verifica nome utente/password)</string>

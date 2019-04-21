@@ -129,7 +129,7 @@
     <string name="set_default">Aseta oletukseksi</string>
     <string name="loading">Lataa</string>
     <string name="about">lisätietoja</string>
-    <string name="source_code_link">Lähdekoodi saatavilla https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Lähdekoodi saatavilla https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Aktivoitu profiili</string>
     <string name="connection_state">Yhteyden tila</string>
     <string name="not_available">ei saatavilla</string>

@@ -3,7 +3,7 @@
     <string name="description">Opis</string>
     <string name="title">Naslov</string>
     <string name="mo">Mo</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
     <string-array name="servicelist">
         <item>Buketi (TV)</item>
         <item>Provideri (TV)</item>
@@ -153,7 +153,7 @@
     <string name="loading">Loading...</string>
     <string name="about">O</string>
     <string name="license">LIZENCIJA:\nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0	 </string>
-    <string name="source_code_link">Source code available at: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Source code available at: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Aktiviran profil</string>
     <string name="connection_state">Stanje veze</string>
     <string name="not_available">Nije dostupno</string>
@@ -197,7 +197,7 @@
     <string name="profiles">Profili</string>
     <string name="enable_instant_zap">Instant zap</string>
     <string name="enable_instant_zap_long">Instant zap when short-tapping a service</string>
-    <string name="wrong_activity">Wrong Activity called! Please recreate any shortcuts you created for opennfrDroid!</string>
+    <string name="wrong_activity">Wrong Activity called! Please recreate any shortcuts you created for visionDroid!</string>
     <string name="simple_remote">Jednostavni raspored daljinskog</string>
     <string name="screenshot_saved">Slika spremljena u \'%s\'</string>
     <string name="imdb">IMDb</string>

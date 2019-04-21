@@ -111,8 +111,8 @@ public class GaugeView extends View {
 	private float[] mRangeValues;
 
 	private int[] mRangeColors;
-	private int mDiopennfrDroids;
-	private int mSubdiopennfrDroids;
+	private int mDivisions;
+	private int mSubdivisions;
 
 	private RectF mOuterShadowRect;
 	private RectF mOuterBorderRect;
@@ -155,9 +155,9 @@ public class GaugeView extends View {
 	// *--------------------------------------------------------------------- *//
 
 	private float mScaleRotation;
-	private float mDiopennfrDroidValue;
-	private float mSubdiopennfrDroidValue;
-	private float mSubdiopennfrDroidAngle;
+	private float mDivisionValue;
+	private float mSubdivisionValue;
+	private float mSubdivisionAngle;
 
 	private float mTargetValue;
 	private float mCurrentValue;
@@ -207,8 +207,8 @@ public class GaugeView extends View {
 		mScaleStartAngle = a.getFloat(R.styleable.GaugeView_scaleStartAngle, SCALE_START_ANGLE);
 		mScaleEndAngle = a.getFloat(R.styleable.GaugeView_scaleEndAngle, 360.0f - mScaleStartAngle);
 
-		mDiopennfrDroids = a.getInteger(R.styleable.GaugeView_diopennfrDroids, SCALE_DIVISIONS);
-		mSubdiopennfrDroids = a.getInteger(R.styleable.GaugeView_subdiopennfrDroids, SCALE_SUBDIVISIONS);
+		mDivisions = a.getInteger(R.styleable.GaugeView_divisions, SCALE_DIVISIONS);
+		mSubdivisions = a.getInteger(R.styleable.GaugeView_subdivisions, SCALE_SUBDIVISIONS);
 
 		if (mShowRanges) {
 			mTextShadowColor = a.getColor(R.styleable.GaugeView_textShadowColor, TEXT_SHADOW_COLOR);
@@ -539,9 +539,9 @@ public class GaugeView extends View {
 
 	private void initScale() {
 		mScaleRotation = (mScaleStartAngle + 180) % 360;
-		mDiopennfrDroidValue = (mScaleEndValue - mScaleStartValue) / mDiopennfrDroids;
-		mSubdiopennfrDroidValue = mDiopennfrDroidValue / mSubdiopennfrDroids;
-		mSubdiopennfrDroidAngle = (mScaleEndAngle - mScaleStartAngle) / (mDiopennfrDroids * mSubdiopennfrDroids);
+		mDivisionValue = (mScaleEndValue - mScaleStartValue) / mDivisions;
+		mSubdivisionValue = mDivisionValue / mSubdivisions;
+		mSubdivisionAngle = (mScaleEndAngle - mScaleStartAngle) / (mDivisions * mSubdivisions);
 	}
 
 	@Override
@@ -689,26 +689,26 @@ public class GaugeView extends View {
 		// We start the scale somewhere South-West so we need to first rotate the canvas.
 		canvas.rotate(mScaleRotation, 0.5f, 0.5f);
 
-		final int totalTicks = mDiopennfrDroids * mSubdiopennfrDroids + 1;
+		final int totalTicks = mDivisions * mSubdivisions + 1;
 		for (int i = 0; i < totalTicks; i++) {
 			final float y1 = mScaleRect.top;
-			final float y2 = y1 + 0.015f; // height of diopennfrDroid
-			final float y3 = y1 + 0.045f; // height of subdiopennfrDroid
+			final float y2 = y1 + 0.015f; // height of division
+			final float y3 = y1 + 0.045f; // height of subdivision
 
 			final float value = getValueForTick(i);
 			final Paint paint = getRangePaint(mScaleStartValue + value);
 
-			float mod = value % mDiopennfrDroidValue;
-			if ((Math.abs(mod - 0) < 0.001) || (Math.abs(mod - mDiopennfrDroidValue) < 0.001)) {
-				// Draw a diopennfrDroid tick
+			float mod = value % mDivisionValue;
+			if ((Math.abs(mod - 0) < 0.001) || (Math.abs(mod - mDivisionValue) < 0.001)) {
+				// Draw a division tick
 				canvas.drawLine(0.5f, y1, 0.5f, y3, paint);
-				// Draw the text 0.15 away from the diopennfrDroid tick
+				// Draw the text 0.15 away from the division tick
 				drawTextOnCanvasWithMagnifier(canvas, valueString(value), 0.5f, y3 + 0.045f, paint);
 			} else {
-				// Draw a subdiopennfrDroid tick
+				// Draw a subdivision tick
 				canvas.drawLine(0.5f, y1, 0.5f, y2, paint);
 			}
-			canvas.rotate(mSubdiopennfrDroidAngle, 0.5f, 0.5f);
+			canvas.rotate(mSubdivisionAngle, 0.5f, 0.5f);
 		}
 		canvas.restore();
 	}
@@ -745,7 +745,7 @@ public class GaugeView extends View {
 	}
 
 	private float getValueForTick(final int tick) {
-		return tick * (mDiopennfrDroidValue / mSubdiopennfrDroids);
+		return tick * (mDivisionValue / mSubdivisions);
 	}
 
 	private Paint getRangePaint(final float value) {
@@ -790,7 +790,7 @@ public class GaugeView extends View {
 	}
 
 	private float getAngleForValue(final float value) {
-		return (mScaleRotation + ((value - mScaleStartValue) / mSubdiopennfrDroidValue) * mSubdiopennfrDroidAngle) % 360;
+		return (mScaleRotation + ((value - mScaleStartValue) / mSubdivisionValue) * mSubdivisionAngle) % 360;
 	}
 
 	private void computeCurrentValue() {

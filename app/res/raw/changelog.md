@@ -1,5 +1,14 @@
+## 7.2.r12
+* Add viper4k
+
+## 7.2.r11
+* Add osmio4kplus
+
+## 7.1.r10
+* Add new STBs
+
 ## 7.0.r8
-* First compatible release for Open Nachfalke
+* First compatible release for Open Vision
 
 ## 1.4.433
 * FIX: Virtual remote widget
@@ -21,7 +30,7 @@
 ## 1.3.430
 * FIX: crash when trying to stream with external video player
 * FIX: crash when encoder-port/bitrate is empty or invalid
-* FIX: Bug in integrated gaugeview-library that caused "READ_PHONE_STATE" permission to be added by the android SDK [GitHub](https://github.com/Carlo0815/OpenNFRDroid/commit/f3eb97472a850ddbeca7bf91a14c4163f845cc35)
+* FIX: Bug in integrated gaugeview-library that caused "READ_PHONE_STATE" permission to be added by the android SDK [GitHub](https://github.com/OpenVisionE2/VisionDroid/commit/f3eb97472a850ddbeca7bf91a14c4163f845cc35)
 
 ## 1.3.429
 * Improvements to the videoplayer (don't stop on rotation, jump in recordings, playback time displayed correctly when watching recorded movies)
@@ -54,7 +63,7 @@
 
 ## 1.2.420
 * NEW: Settings Backup
-* FIX: Some improvements for the TV version of OpenNFRDroid
+* FIX: Some improvements for the TV version of VisionDroid
 * FIX: Fix NPEs
 * DEV: Switch to Android SDK 28 and AndroidX
 * DEV: Update external libraries
@@ -80,7 +89,7 @@
 * Fast scrolling is back
 
 ## 1.2.409
-* OpenNFRDroid is now free Software, licensed under GPLv3
+* VisionDroid is now free Software, licensed under GPLv3
 * Some changes for releasing on f-droid
 
 ## 1.2-405
@@ -135,7 +144,7 @@
 
 ## 1.1-380
 * FIX: Improve error handling in some of the lists
-* FIX: Workaround for issues with "EPG" on older Receiver models
+* FIX: Workaround for issues with "EPG" on older dreambox models
 
 ## 1.1-379
 * FIX: Profile Name fix was actually missing

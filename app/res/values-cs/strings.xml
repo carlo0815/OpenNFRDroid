@@ -4,7 +4,7 @@
     <string name="description">Popis</string>
     <string name="title">Název</string>
     <string name="mo">Mo</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Bouquety (TV)</item>
@@ -161,10 +161,10 @@
     <string name="default_bouquet_set_to">Výchozí bouquet byl nastaven na:</string>
     <string name="default_bouquet_not_set">Výchozí bouquet nelze nastavit!</string>
     <string name="loading">Načítání...</string>
-    <string name="about">O opennfrdroid</string>
+    <string name="about">O visiondroid</string>
 <string name="license">LICENCE:
 \nLicencováno pod Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Zdrojový kód dostupný na: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Zdrojový kód dostupný na: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Aktivní profil</string>
     <string name="connection_state">Stav připojení</string>
     <string name="not_available">Není k dispozici</string>
@@ -209,7 +209,7 @@
     <string name="profiles">Profily</string>
     <string name="enable_instant_zap">Okamžité přepnutí</string>
     <string name="enable_instant_zap_long">Okamžité přepnutí při krátkém klepnutí na službu</string>
-    <string name="wrong_activity">Zvolena nesprávná aktivita! Nastavte znovu všechny rychlé předvolby pro opennfrDroid!</string>
+    <string name="wrong_activity">Zvolena nesprávná aktivita! Nastavte znovu všechny rychlé předvolby pro visionDroid!</string>
     <string name="simple_remote">Jednoduchý vzhled DO</string>
     <string name="screenshot_saved">Screenshot uložen do \'%s\'</string>
     <string name="imdb">IMDb</string>

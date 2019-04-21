@@ -8,7 +8,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.android.tools.build:gradle:3.4.0'
     }
 }
 apply plugin: 'com.android.application'
@@ -66,10 +66,15 @@ android {
     buildToolsVersion project.BUILD_TOOLS_VERSION
 
     defaultConfig {
-        versionCode 8
-        versionName="7.0.r8"
+        versionCode 12
+        versionName="7.2.r12"
         minSdkVersion 17
         targetSdkVersion 28
+        javaCompileOptions {
+            annotationProcessorOptions {
+            arguments = ["resourcePackageName": android.defaultConfig.applicationId]
+                }
+            }
         multiDexEnabled true
         sourceSets {
             main {
@@ -83,15 +88,24 @@ android {
     productFlavors {
         google {
             dimension "distribution"
-            applicationId "org.opennfr.opennfrdroid"
+            applicationId "org.opennfr.nfrdroid"
+            minSdkVersion 22
+            maxSdkVersion 28
+            targetSdkVersion 27
         }
         fdroid {
             dimension "distribution"
-            applicationId "org.opennfr.opennfrdroid"
+            applicationId "org.opennfr.nfrdroid"
+            minSdkVersion 22
+            targetSdkVersion 27
+            maxSdkVersion 28
         }
         amazon {
             dimension "distribution"
-            applicationId "org.opennfr.opennfrdroid"
+            applicationId "org.opennfr.nfrdroid"
+            minSdkVersion 22
+            targetSdkVersion 27
+            maxSdkVersion 28
         }
     }
     splits {

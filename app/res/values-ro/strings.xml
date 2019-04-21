@@ -3,7 +3,7 @@
     <string name="description">Descriere</string>
     <string name="title">Titlu</string>
     <string name="mo">Mo</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
     <string-array name="servicelist">
         <item>Bouquets (TV)</item>
         <item>Provider (TV)</item>
@@ -153,7 +153,7 @@
     <string name="loading">Incarca...</string>
     <string name="about">Despre</string>
     <string name="license">LICENSE:\nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Source code available at: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Source code available at: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Profil activ</string>
     <string name="connection_state">Stare conexiune</string>
     <string name="not_available">Nedisponibil</string>
@@ -197,7 +197,7 @@
     <string name="profiles">Profile</string>
     <string name="enable_instant_zap">Instant zap</string>
     <string name="enable_instant_zap_long">Instant zap when short-tapping a service</string>
-    <string name="wrong_activity">Wrong Activity called! Please recreate any shortcuts you created for opennfrDroid!</string>
+    <string name="wrong_activity">Wrong Activity called! Please recreate any shortcuts you created for visionDroid!</string>
     <string name="simple_remote">Simple remote layout</string>
     <string name="screenshot_saved">Screenshot saved to \'%s\'</string>
 </resources>

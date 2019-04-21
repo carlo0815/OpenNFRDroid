@@ -4,7 +4,7 @@
     <string name="description">Popis</string>
     <string name="title">Názov</string>
     <string name="mo">Po</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Bouquets(TV)</item>
@@ -171,7 +171,7 @@
     <string name="about">O aplikácii</string>
 <string name="license">LICENCIA:
 \nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Zdrojový kód dostupný na: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Zdrojový kód dostupný na: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Aktívny profil</string>
     <string name="connection">Spojenie</string>
     <string name="connection_state">Stav pripojenia</string>
@@ -218,7 +218,7 @@
     <string name="profiles_long">Správa profilov pripojenia</string>
     <string name="enable_instant_zap">Okamžité prepnutie</string>
     <string name="enable_instant_zap_long">Okamžité prepnutie kanála pri dotknutí</string>
-    <string name="wrong_activity">Zvolená nesprávna aktivita! Nastavte opäť všetky rýchle predvoľby pre OpenNFRDroid!</string>
+    <string name="wrong_activity">Zvolená nesprávna aktivita! Nastavte opäť všetky rýchle predvoľby pre VisionDroid!</string>
     <string name="simple_remote">Zobrazenie jednoduchého ovládača</string>
     <string name="screenshot_saved">Snímka obrazovky uložená do \'%s\'</string>
     <string name="imdb">IMDb</string>
@@ -240,10 +240,10 @@
     <string name="use_light_theme_long">Použi svetlú tému namiesto hlavnej tmavej</string>
     <string name="use_light_theme">Použi svetlú tému</string>
     <string name="leave_confirm">Naozaj odísť?</string>
-    <string name="leave_confirm_long">Naozaj chcete ukončiť opennfrDroid?</string>
+    <string name="leave_confirm_long">Naozaj chcete ukončiť visionDroid?</string>
     <string name="sent_as">Poslané ako %s</string>
-    <string name="watch_on_stb">Sledovať na opennfrDroide</string>
-    <string name="sent_from_opennfrdroid">Odoslal opennfrDroid o %s</string>
+    <string name="watch_on_stb">Sledovať na visionDroide</string>
+    <string name="sent_from_visiondroid">Odoslal visionDroid o %s</string>
     <string name="no_profile_available">Neexistuje profil pripojenia! Vytvorte nejaký!</string>
     <string name="confirm_app_close">Žiadať potvrdenie pred ukončením aplikácie</string>
     <string name="login_movies">Prihlásenie (Filmy)</string>

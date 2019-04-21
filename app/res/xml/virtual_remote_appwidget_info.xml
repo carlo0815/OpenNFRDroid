@@ -7,7 +7,7 @@
                     android:minResizeHeight="288dp"
                     android:previewImage="@mipmap/ic_launcher"
                     android:initialLayout="@layout/virtual_remote_appwidget"
-                    android:configure="org.opennfr.opennfrdroid.appwidget.VirtualRemoteWidgetConfiguration"
+                    android:configure="org.opennfr.nfrdroid.appwidget.VirtualRemoteWidgetConfiguration"
                     android:resizeMode="horizontal|vertical"
                     android:widgetCategory="home_screen">
 </appwidget-provider>

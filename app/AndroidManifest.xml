@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="org.opennfr.opennfrdroid"
+          package="org.opennfr.nfrdroid"
           android:installLocation="auto">
 
     <uses-sdk
@@ -30,19 +30,19 @@
     <uses-feature android:name="android.hardware.location.network" android:required="false" />
 
     <application
-        android:name=".OpenNFRDroid"
+        android:name=".nfrDroid"
         android:allowBackup="true"
         android:allowClearUserData="true"
-        android:backupAgent="OpenNFRDroidBackupAgent"
+        android:backupAgent="nfrDroidBackupAgent"
         android:hardwareAccelerated="true"
         android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
-        android:banner="@drawable/opennfrdroid_banner"
+        android:banner="@drawable/nfrdroid_banner"
         android:killAfterRestore="true"
         android:label="@string/app_name"
         android:resizeableActivity="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OpenNFRDroid"
+        android:theme="@style/Theme.nfrDroid"
         android:usesCleartextTraffic="true">
         <activity android:name=".activities.TabbedNavigationActivity"
                   android:exported="true">
@@ -53,7 +53,7 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <data android:scheme="opennfrdroid" />
+                <data android:scheme="nfrdroid" />
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -66,7 +66,7 @@
         </activity>
         <activity
             android:name=".activities.SimpleNoTitleFragmentActivity"
-            android:theme="@style/Theme.OpenNFRDroid.NoTitle"
+            android:theme="@style/Theme.nfrDroid.NoTitle"
             android:uiOptions=""/>
 
         <activity
@@ -84,12 +84,12 @@
             android:theme="@style/Theme.Leanback" />
         <activity
             android:name=".tv.activities.PreferenceActivity"
-            android:theme="@style/Theme.Opennfrdroid.LeanbackPreferences">
+            android:theme="@style/Theme.nfrdroid.LeanbackPreferences">
         </activity>
 
         <activity
             android:name=".activities.ShareActivity"
-            android:theme="@style/Theme.OpenNFRDroid.Dialog">
+            android:theme="@style/Theme.nfrDroid.Dialog">
 
             <intent-filter android:label="@string/watch_on_stb">
                 <action android:name="android.intent.action.VIEW"/>
@@ -134,26 +134,27 @@
 
         <activity
             android:name=".activities.VideoActivity"
-            android:theme="@style/Theme.OpenNFRDroid.Player"
+            android:theme="@style/Theme.nfrDroid.Player"
             android:finishOnTaskLaunch="true"
             android:launchMode="singleTop"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden|screenLayout|uiMode|smallestScreenSize" />
 
         <activity
             android:name=".appwidget.VirtualRemoteWidgetConfiguration"
-            android:theme="@style/Theme.OpenNFRDroid.Dialog">
+            android:theme="@style/Theme.nfrDroid.Dialog">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
             </intent-filter>
         </activity>
 
         <activity android:name="de.duenndns.ssl.MemorizingActivity"
-                  android:theme="@style/Theme.OpenNFRDroid.Dialog"/>
+                  android:theme="@style/Theme.nfrDroid.Dialog"/>
+        <activity android:name=".MainActivity" />
 
         <receiver android:name=".appwidget.VirtualRemoteWidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
-                <action android:name="org.opennfr.opennfrdroid.appwidget.WidgetService.ACTION_RCU" />
+                <action android:name="org.opennfr.nfrdroid.appwidget.WidgetService.ACTION_RCU" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"

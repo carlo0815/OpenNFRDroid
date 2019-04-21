@@ -4,7 +4,7 @@
     <string name="description">Beskrivning</string>
     <string name="title">Titel</string>
     <string name="mo">Mån</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">nfrDroid</string>
 
     <string-array name="servicelist">
         <item>Bouquets (TV)</item>
@@ -176,7 +176,7 @@
     <string name="about">Om</string>
 <string name="license">LICENSE:
 \nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Source code available at: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Source code available at: https://github.com/OpenVisionE2/VisionDroid</string>
     <string name="active_profile">Aktiv profil</string>
     <string name="connection">Anslutning</string>
     <string name="connection_state">Status på anslutningen</string>
@@ -222,7 +222,7 @@
     <string name="profiles">Profiler</string>
     <string name="enable_instant_zap">Snabb-zap</string>
     <string name="enable_instant_zap_long">Snabb-zappa vid snabbklick på en tjänst</string>
-    <string name="wrong_activity">Fel aktivitet påkallad. Uppdatera ny genväg för OpenNFRDroid</string>
+    <string name="wrong_activity">Fel aktivitet påkallad. Uppdatera ny genväg för VisionDroid</string>
     <string name="simple_remote">Enkel fjärrkontroll </string>
     <string name="screenshot_saved">Skärmdump sparad till \'%s\'</string>
     <string name="imdb">IMDB</string>
@@ -241,6 +241,6 @@
     <string name="leave_confirm_long">Är du säker på att du vill avsluta programmet?</string>
     <string name="sent_as">Skickad som</string>
     <string name="watch_on_stb">Visa på STB</string>
-    <string name="sent_from_opennfrdroid">Skickad från opennfrDroid %s</string>
+    <string name="sent_from_visiondroid">Skickad från visionDroid %s</string>
     <string name="no_profile_available">Ingen anslutningsprofil kunde hittas, Skapa en via huvudapplikationen</string>
 </resources>

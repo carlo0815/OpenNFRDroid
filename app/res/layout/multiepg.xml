@@ -12,7 +12,7 @@
         android:layout_height="0dp"
         android:visibility="gone"/>
 
-    <org.opennfr.opennfrdroid.view.EnhancedHorizontalScrollView
+    <org.opennfr.nfrdroid.view.EnhancedHorizontalScrollView
         android:id="@+id/scrollview_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -30,7 +30,7 @@
             android:layout_gravity="bottom">
 
         </LinearLayout>
-    </org.opennfr.opennfrdroid.view.EnhancedHorizontalScrollView>
+    </org.opennfr.nfrdroid.view.EnhancedHorizontalScrollView>
 
 
     <ScrollView
@@ -50,7 +50,7 @@
 
             </LinearLayout>
 
-            <org.opennfr.opennfrdroid.view.EnhancedHorizontalScrollView
+            <org.opennfr.nfrdroid.view.EnhancedHorizontalScrollView
                 android:id="@+id/scrollview_content"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -65,7 +65,7 @@
                     style="?attr/cardListView">
 
                 </LinearLayout>
-            </org.opennfr.opennfrdroid.view.EnhancedHorizontalScrollView>
+            </org.opennfr.nfrdroid.view.EnhancedHorizontalScrollView>
 
         </LinearLayout>
     </ScrollView>

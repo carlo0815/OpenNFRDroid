@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.OpenNFRDroid" parent="Theme.OpenNFRDroid.Night" />
-    <style name="Theme.OpenNFRDroid.Dialog" parent="Theme.OpenNFRDroid.Dialog.Night" />
-    <style name="Theme.OpenNFRDroid.BottomSheetDialog" parent="Theme.OpenNFRDroid.BottomSheetDialog.Night" />
-    <style name="Theme.OpenNFRDroid.Dialog.Alert" parent="Theme.OpenNFRDroid.Dialog.Alert.Night" />
+    <style name="Theme.nfrDroid" parent="Theme.nfrDroid.Night" />
+    <style name="Theme.nfrDroid.Dialog" parent="Theme.nfrDroid.Dialog.Night" />
+    <style name="Theme.nfrDroid.BottomSheetDialog" parent="Theme.nfrDroid.BottomSheetDialog.Night" />
+    <style name="Theme.nfrDroid.Dialog.Alert" parent="Theme.nfrDroid.Dialog.Alert.Night" />
 
 </resources>

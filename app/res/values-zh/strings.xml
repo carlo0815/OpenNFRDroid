@@ -4,7 +4,7 @@
     <string name="description">描述</string>
     <string name="title">标题</string>
     <string name="mo">周一</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">nfrDroid</string>
 
     <string-array name="servicelist">
         <item>喜爱频道(TV)</item>
@@ -153,7 +153,7 @@
     <string name="set_default">设置为默认</string>
     <string name="loading">加载</string>
     <string name="about">关于</string>
-    <string name="source_code_link">源代码请访问https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">源代码请访问https://github.com/OpenVisionE2/VisionDroid</string>
     <string name="active_profile">激活档</string>
     <string name="connection_state">连接状态</string>
     <string name="not_available">不可用</string>

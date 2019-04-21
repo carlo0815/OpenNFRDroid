@@ -9,7 +9,7 @@
     app:cardElevation="4dp"
     app:contentPadding="4dp">
 
-    <org.opennfr.opennfrdroid.widget.CheckableLinearLayout
+    <org.opennfr.nfrdroid.widget.CheckableLinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="?attr/listItemBackground"
@@ -45,5 +45,5 @@
                 android:textSize="16sp"/>
         </LinearLayout>
 
-    </org.opennfr.opennfrdroid.widget.CheckableLinearLayout>
+    </org.opennfr.nfrdroid.widget.CheckableLinearLayout>
 </androidx.cardview.widget.CardView>

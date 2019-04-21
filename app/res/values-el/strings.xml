@@ -4,7 +4,7 @@
     <string name="description">Περιγραφή</string>
     <string name="title">Τίτλος</string>
     <string name="mo">μο</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Μπουκέτα (TV)</item>
@@ -157,7 +157,7 @@
     <string name="about">Περί</string>
 <string name="license">¨Αδεια :
 \nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Ο πηγαίος κώδικας είναι διαθέσιμος στο: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Ο πηγαίος κώδικας είναι διαθέσιμος στο: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Ενεργό προφίλ</string>
     <string name="connection_state">Κατάσταση σύνδεσης</string>
     <string name="not_available">Μη διαθέσιμο</string>
@@ -192,7 +192,7 @@
     <string name="profiles">Προφίλ</string>
     <string name="enable_instant_zap">Άμεση εναλλαγή καναλιού</string>
     <string name="enable_instant_zap_long">Άμεση εναλλαγή καναλιού με το άγγιγμα υπηρεσίας</string>
-    <string name="wrong_activity">Λάθος δραστηριότητα! Παρακαλούμε δημιουργήσετε ξανά τις συντομεύσεις που έχετε δημιουργήσει για opennfrDroid!</string>
+    <string name="wrong_activity">Λάθος δραστηριότητα! Παρακαλούμε δημιουργήσετε ξανά τις συντομεύσεις που έχετε δημιουργήσει για visionDroid!</string>
     <string name="simple_remote">Απλή εμφάνιση</string>
     <string name="screenshot_saved">Η εικόνα σώθηκε σε \'%s\'</string>
     <string name="imdb">IMDb</string>

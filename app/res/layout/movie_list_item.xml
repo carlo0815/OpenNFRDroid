@@ -10,7 +10,7 @@
     app:cardElevation="4dp"
     app:contentPadding="4dp">
 
-    <org.opennfr.opennfrdroid.widget.CheckableLinearLayout
+    <org.opennfr.nfrdroid.widget.CheckableLinearLayout
         android:id="@+id/LinearLayoutMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -76,5 +76,5 @@
                 android:gravity="end"/>
         </LinearLayout>
 
-    </org.opennfr.opennfrdroid.widget.CheckableLinearLayout>
+    </org.opennfr.nfrdroid.widget.CheckableLinearLayout>
 </androidx.cardview.widget.CardView>

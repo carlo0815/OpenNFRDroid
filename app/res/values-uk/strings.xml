@@ -4,7 +4,7 @@
     <string name="description">Опис</string>
     <string name="title">Заголовок</string>
     <string name="mo">Mo</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">nfrDroid</string>
 
     <string-array name="servicelist">
         <item>Фаворити (TV)</item>
@@ -161,7 +161,7 @@
     <string name="loading">Завантаження&#8230;</string>
     <string name="about">Про програму</string>
     <string name="license">ЛІЦЕНЗІЯ:\nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Вихідний код доступний на: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Вихідний код доступний на: https://github.com/OpenVisionE2/VisionDroid</string>
     <string name="active_profile">Активний профіль</string>
     <string name="connection_state">Стан з\'єднання</string>
     <string name="not_available">Недоступно</string>
@@ -206,7 +206,7 @@
     <string name="profiles">Профілі</string>
     <string name="enable_instant_zap">Швидкий перехід</string>
     <string name="enable_instant_zap_long">Швидкий перехід при короткому натисканні на сервіс</string>
-    <string name="wrong_activity">Невірна дія! Створіть заново усі посилання на opennfrDroid!</string>
+    <string name="wrong_activity">Невірна дія! Створіть заново усі посилання на visionDroid!</string>
     <string name="simple_remote">Спрощена розкладка кнопок пульта</string>
     <string name="screenshot_saved">Знімок екрану збережено до  \'%s\'</string>
     <string name="imdb">IMDb</string>
@@ -226,9 +226,9 @@
     <string name="use_light_theme_long">Використовувати світлу тему замість темної</string>
     <string name="use_light_theme">Світла тема</string>
     <string name="leave_confirm">Схаменіться!</string>
-    <string name="leave_confirm_long">Ви дійсно хочете вийти з opennfrDroid?</string>
+    <string name="leave_confirm_long">Ви дійсно хочете вийти з visionDroid?</string>
     <string name="watch_on_stb">Переглянути на STB</string>
-    <string name="sent_from_opennfrdroid">Надіслано з opennfrDroid на %s</string>
+    <string name="sent_from_visiondroid">Надіслано з visionDroid на %s</string>
     <string name="confirm_app_close">Підтвердження перед виходом</string>
     <string name="confirm_app_close_long">Запитувати підтвердження перед виходом з програми після натискання кнопки &quot;назад&quot;</string>
 </resources>

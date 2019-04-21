@@ -3,8 +3,8 @@
 
     <string name="description">Përshkrimi</string>
     <string name="title">Titull</string>
-    <string name="mo">OpenNFRDroid</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="mo">nfrDroid</string>
+    <string name="app_name">nfrDroid</string>
 
     <string-array name="servicelist">
         <item>Paketat (TV)</item>
@@ -136,7 +136,7 @@
     <string name="leave_confirm">Je i sigurte te largohesh</string>
     <string name="sent_as">Derguar si %s</string>
     <string name="watch_on_stb">Shiko ne STB</string>
-    <string name="sent_from_opennfrdroid">Derguar nga opennfrDroid ne %s</string>
+    <string name="sent_from_visiondroid">Derguar nga visionDroid ne %s</string>
     <string name="connecting">Duke u lidhur</string>
     <string name="connected">I lidhur</string>
     <string name="getting_list_of_files">Duke marre skedaret</string>

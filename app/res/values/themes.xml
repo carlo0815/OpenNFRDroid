@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.OpenNFRDroid" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.nfrDroid" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:listSelector">@drawable/list_selector_light</item>
         <item name="android:navigationBarColor">@color/primary_material_dark</item>
         <item name="android:windowTranslucentStatus">@bool/requireTranslucentStatusbar</item>
@@ -18,7 +18,7 @@
         <item name="buttonBarNeutralButtonStyle">@style/buttonBarNeutralButtonStyle</item>
         <item name="buttonBarPositiveButtonStyle">@style/buttonBarPositiveButtonStyle</item>
         <item name="buttonBarNegativeButtonStyle">@style/buttonBarNegativeButtonStyle</item>
-        <item name="colorPrimary">@color/primary_opennfrdroid</item>
+        <item name="colorPrimary">@color/primary_nfrdroid</item>
         <item name="colorPrimaryDark">@color/primary_material_dark</item>
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="android:textColorLink">@color/material_blue_600</item>
@@ -66,27 +66,27 @@
         <item name="mdtp_theme_dark">false</item>
         <item name="md_dark_theme">false</item>
         <item name="ic_import_export">@drawable/ic_import_export_light</item>
-        <item name="bottomSheetDialogTheme">@style/Theme.OpenNFRDroid.BottomSheetDialog</item>
-        <item name="alertDialogTheme">@style/Theme.OpenNFRDroid.Dialog.Alert</item>
-        <item name="dialogTheme">@style/Theme.OpenNFRDroid.Dialog</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.nfrDroid.BottomSheetDialog</item>
+        <item name="alertDialogTheme">@style/Theme.nfrDroid.Dialog.Alert</item>
+        <item name="dialogTheme">@style/Theme.nfrDroid.Dialog</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.Dialog.Alert" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+    <style name="Theme.nfrDroid.Dialog.Alert" parent="Theme.MaterialComponents.Light.Dialog.Alert">
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.Dialog" parent="Theme.MaterialComponents.Light.Dialog">
+    <style name="Theme.nfrDroid.Dialog" parent="Theme.MaterialComponents.Light.Dialog">
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.BottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+    <style name="Theme.nfrDroid.BottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.NoTitle" parent="Theme.OpenNFRDroid">
+    <style name="Theme.nfrDroid.NoTitle" parent="Theme.nfrDroid">
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
@@ -97,7 +97,7 @@
         <item name="android:navigationBarColor" tools:targetApi="21">#30000000</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.Player" parent="Theme.OpenNFRDroid.Night">
+    <style name="Theme.nfrDroid.Player" parent="Theme.nfrDroid.Night">
         <item name="windowActionBar">false</item>
         <item name="android:windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -107,12 +107,12 @@
         <item name="android:windowActionBarOverlay">true</item>
         <item name="windowActionBarOverlay">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
-        <item name="bottomSheetDialogTheme">@style/Theme.OpenNFRDroid.BottomSheetDialog.Night</item>
-        <item name="alertDialogTheme">@style/Theme.OpenNFRDroid.Dialog.Alert.Night</item>
-        <item name="dialogTheme">@style/Theme.OpenNFRDroid.Dialog.Night</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.nfrDroid.BottomSheetDialog.Night</item>
+        <item name="alertDialogTheme">@style/Theme.nfrDroid.Dialog.Alert.Night</item>
+        <item name="dialogTheme">@style/Theme.nfrDroid.Dialog.Night</item>
     </style>
 
-    <style name="Theme.Opennfrdroid.LeanbackPreferences" parent="Theme.Leanback">
+    <style name="Theme.nfrdroid.LeanbackPreferences" parent="Theme.Leanback">
         <item name="preferenceTheme">@style/PreferenceThemeOverlayLeanback</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -123,7 +123,7 @@
     <style name="VideoPlayerButton" parent="Base.Widget.AppCompat.Button.Borderless" />
 
     <!-- NIGHT STYLES -->
-    <style name="Theme.OpenNFRDroid.Night" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="Theme.nfrDroid.Night" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:listSelector">@drawable/list_selector_dark</item>
         <item name="android:navigationBarColor">@color/primary_material_dark</item>
         <item name="android:windowTranslucentStatus">@bool/requireTranslucentStatusbar</item>
@@ -142,7 +142,7 @@
         <item name="buttonBarPositiveButtonStyle">@style/buttonBarPositiveButtonStyle</item>
         <item name="buttonBarNegativeButtonStyle">@style/buttonBarNegativeButtonStyle</item>
         <item name="detailsElementBackground">@color/details_element_background_dark</item>
-        <item name="colorPrimary">@color/primary_opennfrdroid</item>
+        <item name="colorPrimary">@color/primary_nfrdroid</item>
         <item name="colorPrimaryDark">@color/primary_material_dark</item>
         <item name="colorAccent">@color/material_blue_500</item>
         <item name="android:textColorLink">@color/material_blue_500</item>
@@ -188,22 +188,22 @@
         <item name="bottomSheetDialogTheme">@style/Theme.Design.BottomSheetDialog</item>
         <item name="mdtp_theme_dark">true</item>
         <item name="ic_import_export">@drawable/ic_import_export_dark</item>
-        <item name="bottomSheetDialogTheme">@style/Theme.OpenNFRDroid.BottomSheetDialog</item>
-        <item name="alertDialogTheme">@style/Theme.OpenNFRDroid.Dialog.Alert</item>
-        <item name="dialogTheme">@style/Theme.OpenNFRDroid.Dialog</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.nfrDroid.BottomSheetDialog</item>
+        <item name="alertDialogTheme">@style/Theme.nfrDroid.Dialog.Alert</item>
+        <item name="dialogTheme">@style/Theme.nfrDroid.Dialog</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.Dialog.Night" parent="Theme.MaterialComponents.Dialog">
+    <style name="Theme.nfrDroid.Dialog.Night" parent="Theme.MaterialComponents.Dialog">
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.BottomSheetDialog.Night" parent="Theme.MaterialComponents.BottomSheetDialog">
+    <style name="Theme.nfrDroid.BottomSheetDialog.Night" parent="Theme.MaterialComponents.BottomSheetDialog">
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="bottomSheetStyle">@style/Widget.MaterialComponents.BottomSheet.Modal</item>
     </style>
 
-    <style name="Theme.OpenNFRDroid.Dialog.Alert.Night" parent="Theme.MaterialComponents.Dialog.Alert">
+    <style name="Theme.nfrDroid.Dialog.Alert.Night" parent="Theme.MaterialComponents.Dialog.Alert">
         <item name="colorAccent">@color/material_blue_600</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
     </style>

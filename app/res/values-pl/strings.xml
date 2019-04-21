@@ -4,7 +4,7 @@
     <string name="description">Opis</string>
     <string name="title">Tytuł</string>
     <string name="mo">Pn</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Bukiety (TV)</item>
@@ -178,11 +178,11 @@
     <string name="default_bouquet_set_to">Domyślny bukiet został ustawiony na:</string>
     <string name="default_bouquet_not_set">Domyślny bukiet nie może zostać ustawiony!</string>
     <string name="loading">Ładowanie...</string>
-    <string name="about">O OpenNFRDroid</string>
+    <string name="about">O VisionDroid</string>
     <string name="changelog">Lista zmian</string>
 <string name="license">LICENCJA:
 \nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link">Kod źródłowy dostępny na: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Kod źródłowy dostępny na: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Aktywny profil</string>
     <string name="connection">Połączenie</string>
     <string name="connection_state">Stan połączenia</string>
@@ -229,7 +229,7 @@
     <string name="profiles_long">Konfiguruj profile połączeń</string>
     <string name="enable_instant_zap">Przełącz bezpośrednio</string>
     <string name="enable_instant_zap_long">Przełącz bezpośrednio po naciśnieciu na kanał</string>
-    <string name="wrong_activity">Wywołano błędne działanie! Proszę odtworzyć skróty utworzone dla opennfrDroid!</string>
+    <string name="wrong_activity">Wywołano błędne działanie! Proszę odtworzyć skróty utworzone dla visionDroid!</string>
     <string name="simple_remote">Prosty pilot</string>
     <string name="screenshot_saved">Zrzut ekranu zapisano do \'%s\'</string>
     <string name="imdb">IMDb</string>
@@ -251,10 +251,10 @@
     <string name="use_light_theme_long">Uzyj jasną skórkę zamiast ciemnej skórki</string>
     <string name="use_light_theme">Uzyj jasną skórkę</string>
     <string name="leave_confirm">Zamknij program</string>
-    <string name="leave_confirm_long">Naprawdę chcesz opuścić opennfrDroid?</string>
+    <string name="leave_confirm_long">Naprawdę chcesz opuścić visionDroid?</string>
     <string name="sent_as">Wyślij jako %s</string>
     <string name="watch_on_stb">Zobacz na STB`ie</string>
-    <string name="sent_from_opennfrdroid">Wyślij z dreaDroid na %s</string>
+    <string name="sent_from_visiondroid">Wyślij z dreaDroid na %s</string>
     <string name="no_profile_available">Brak profilu połącznia! Proszę skonfigurować profil by używać aplikacji!</string>
     <string name="confirm_app_close">Pytaj o potwierdzenie przy wyjściu z aplikacji</string>
     <string name="confirm_app_close_long">Pytaj o potwierdzenie przy wyjściu z aplikacji po wciśnięciu "wstecz"</string>
@@ -265,9 +265,9 @@
     <string name="usability">Użyteczność</string>
     <string name="use_picons">Używaj pikon</string>
 <string name="use_picons_long">Włącz używanie pikon w wybranych obszarach.
-\nWymaga pikon w folderze /{ExternalStorageDir}/opennfrDroid/picons</string>
+\nWymaga pikon w folderze /{ExternalStorageDir}/visionDroid/picons</string>
     <string name="sync_picons">Synchronizuj pikon</string>
-    <string name="sync_picons_long">Synchronizuj pikony do folderu /{ExternalStorageDir}/opennfrDroid/picons używając aktualnie skonfigurowanego profilu połączenia</string>
+    <string name="sync_picons_long">Synchronizuj pikony do folderu /{ExternalStorageDir}/visionDroid/picons używając aktualnie skonfigurowanego profilu połączenia</string>
     <string name="sync_picons_path">Pikony - ścieżka zdalna</string>
     <string name="sync_picons_path_long">Ścieżka do folderu z pikonami na Twoim stb`ie</string>
     <string name="connecting">Łączenie...</string>
@@ -302,7 +302,7 @@
     <string name="donation_error">Twoja dotacja nie powiodła się! Przepraszam za to! (%s)</string>
     <string name="share">Dziel</string>
     <string name="restart">Zrestartować ?</string>
-    <string name="theme_change_restart">Aby zastosować zmieniony motyw wymagany jest restart. Uruchomić ponownie opennfrDroid ?</string>
+    <string name="theme_change_restart">Aby zastosować zmieniony motyw wymagany jest restart. Uruchomić ponownie visionDroid ?</string>
     <string name="more">Więcej</string>
     <string name="host_not_found">Host nieznaleziony</string>
     <string name="auth_error">Niepowodzenie autoryzacji (Sprawdź użytkownika / hasło ?)</string>

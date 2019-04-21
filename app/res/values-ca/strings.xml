@@ -3,7 +3,7 @@
 
     <string name="description">Descripció</string>
     <string name="title">Títol</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>Bouquets(TV)</item>
@@ -178,7 +178,7 @@
     <string name="loading">Carregant&#8230;</string>
     <string name="about">Quant a</string>
     <string name="changelog">Canvis</string>
-    <string name="source_code_link">Codi font disponible a: https://github.com/Carlo0815/OpenNFRDroid</string>
+    <string name="source_code_link">Codi font disponible a: https://github.com/carlo0815/OpenNFRDroid</string>
     <string name="active_profile">Perfil</string>
     <string name="connection">Connexió</string>
     <string name="connection_state">Estat</string>
@@ -221,7 +221,7 @@
     <string name="profiles_long">Configura els perfils de connexió</string>
     <string name="enable_instant_zap">Canvi ràpid</string>
     <string name="enable_instant_zap_long">Canvi ràpid al prèmer un servei</string>
-    <string name="wrong_activity">Crida errònia! Refeu els accessos directes creats per opennfrDroid</string>
+    <string name="wrong_activity">Crida errònia! Refeu els accessos directes creats per visionDroid</string>
     <string name="simple_remote">Vista simple de comandament</string>
     <string name="screenshot_saved">Captura de pantalla guardada a \'%s\'</string>
     <string name="missing_stream_player">No hi ha cap reproductor per streams de vídeo instal·lat al dispositiu!</string>
@@ -241,10 +241,10 @@
     <string name="use_light_theme_long">Utilitza un tema clar en compte del tema fosc per defecte</string>
     <string name="use_light_theme">Utilitza un tema clar</string>
     <string name="leave_confirm">Sortir?</string>
-    <string name="leave_confirm_long">Segur que voleu tancar opennfrDroid?</string>
+    <string name="leave_confirm_long">Segur que voleu tancar visionDroid?</string>
     <string name="sent_as">Enviat com a %s</string>
     <string name="watch_on_stb">Mira-ho a STB</string>
-    <string name="sent_from_opennfrdroid">Enviat des de opennfrDroid a %s</string>
+    <string name="sent_from_visiondroid">Enviat des de visionDroid a %s</string>
     <string name="no_profile_available">No s\'ha trobat cap perfil de connexió! Configureu com a mínim un perfil des de l\'aplicació principal.</string>
     <string name="confirm_app_close">Demana confirmació abans de tancar l\'app</string>
     <string name="confirm_app_close_long">Demana confirmació abans de tancar l\'app quan s\'apreti &quot;enrera&quot;</string>

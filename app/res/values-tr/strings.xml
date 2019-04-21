@@ -4,7 +4,7 @@
     <string name="description">Tanım</string>
     <string name="title">Başlık</string>
     <string name="mo">Pazartesi</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">nfrDroid</string>
 
     <string-array name="servicelist">
         <item>Buketler (TV)</item>
@@ -179,7 +179,7 @@
     <string name="about">Hakkında</string>
     <string name="changelog">Sürüm notları</string>
     <string name="license">Lisans</string>
-    <string name="source_code_link">Kaynak kodu mevcut: https://github.com/Carlo0815opennfr/OpenNFRDroid</string>
+    <string name="source_code_link">Kaynak kodu mevcut: https://github.com/OpenVisionE2/VisionDroid</string>
     <string name="active_profile">Profili etkinleştir</string>
     <string name="connection">Bağlantı</string>
     <string name="connection_state">Bağlantı durumu</string>

@@ -4,7 +4,7 @@
     <string name="description">توضیحات</string>
     <string name="title">عنوان</string>
     <string name="mo">Mo</string>
-    <string name="app_name">OpenNFRDroid</string>
+    <string name="app_name">VisionDroid</string>
 
     <string-array name="servicelist">
         <item>لیست (تلوزیون)</item>
@@ -161,7 +161,7 @@
     <string name="loading">در حال بارگذاری &#8230;</string>
     <string name="about">درباره</string>
     <string name="license">LICENSE:\nLicensed under the Create-Commons Attribution-Noncommercial-Share Alike 3.0 Unported http://creativecommons.org/licenses/by-nc-sa/3.0</string>
-    <string name="source_code_link"> https://github.com/Carlo0815/OpenNFRDroid سورس کد در این آدرس موجود است : </string>
+    <string name="source_code_link"> https://github.com/carlo0815/OpenNFRDroid سورس کد در این آدرس موجود است : </string>
     <string name="active_profile">نمایه</string>
     <string name="connection_state">حالت</string>
     <string name="not_available">در دسترس نیست</string>
@@ -232,7 +232,7 @@
     <string name="leave_confirm_long">آیا واقعا میخواهید از PEDroid خارج شوید ؟</string>
     <string name="sent_as">ارسال شده به عنوان %s</string>
     <string name="watch_on_stb">مشاهده روی دستگاه</string>
-    <string name="sent_from_opennfrdroid">توسط PEDroid روی %s ارسال شد</string>
+    <string name="sent_from_visiondroid">توسط PEDroid روی %s ارسال شد</string>
     <string name="no_profile_available">هیچ نمایه ای برای اتصال یافت نشد ! لطفا حداقل یک نمایه توسط صفحه اصلی برنامه پیکربندی کنید</string>
     <string name="confirm_app_close">پرسش برای تایید قبل از خروج از برنامه</string>
     <string name="confirm_app_close_long">پرسش برای تایید قبل از بسته شدن برنامه هنگام فشار دادن &quot;back&quot;</string>

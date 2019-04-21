@@ -4,7 +4,7 @@ An opensource client for enigma2 based STBs.
 <b>Unsupported Devices:</b> This App is not fully compatible with "OpenWebIf"!
 
 Features:
-★ Unlimited connection profiles (number of STBs you can control using OpenNFRDroid)
+★ Unlimited connection profiles (number of STBs you can control using VisionDroid)
 ★ Stream your favorite channel or recording using the integrated or any (capable) external Video Player for android (BETA!)
 ★ See what's currently running
 ★ Browse channels and their EPG

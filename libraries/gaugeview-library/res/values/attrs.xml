@@ -24,8 +24,8 @@
         <attr name="scaleStartAngle" format="float"/>
         <attr name="scaleEndAngle" format="float"/>
 
-        <attr name="diopennfrDroids" format="integer"/>
-        <attr name="subdiopennfrDroids" format="integer"/>
+        <attr name="divisions" format="integer"/>
+        <attr name="subdivisions" format="integer"/>
 
         <attr name="rangeValues" format="reference"/>
         <attr name="rangeColors" format="reference"/>
